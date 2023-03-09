@@ -38,6 +38,9 @@
     "type": "git",
     "url": "https://github.com/Akryum/flexsearch-es.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "copy": "npm run clean && cpx \"src/**\" tmp/",
     "clean": "npx shx rm -rf tmp && mkdir tmp",
