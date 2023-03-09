@@ -1,3 +1,5 @@
+> This a fork that attempts at making [flexsearch](https://github.com/nextapps-de/flexsearch) more ESM friendly. Install it with `@akryum/flexsearch-es` instead of `flexsearch`.
+
 <!-- TODO External Stemmer Lib -->
 
 <h1 align="center">
@@ -101,7 +103,7 @@ Plugins (extern projects):
 #### Get Latest (NPM)
 
 ```cmd
-npm install flexsearch
+npm install @akryum/flexsearch-es
 ```
 
 #### Get Latest Nightly (Do not use for production!)
