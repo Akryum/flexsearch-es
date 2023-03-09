@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+import ws from 'web-servo';
+
 var port = process.argv[2];
 
 if(!port){
@@ -13,8 +15,6 @@ if(!port){
         port = 8080;
     }
 }
-
-var ws = require('web-servo');
 
 ws.config({
 
