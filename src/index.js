@@ -27,6 +27,13 @@ import Cache, { searchCache } from "./cache.js";
 import apply_preset from "./preset.js";
 import { exportIndex, importIndex } from "./serialize.js";
 
+export { registerCharset, registerLanguage } from "./global.js";
+
+export function create(options) {
+    
+        return new Index(options);
+}
+
 /**
  * @constructor
  * @implements IndexInterface
