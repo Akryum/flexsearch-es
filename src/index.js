@@ -28,6 +28,9 @@ import { exportIndex, importIndex } from "./serialize.js";
 
 export { registerCharset, registerLanguage } from "./global.js";
 
+export { default as Document } from "./document.js";
+export { default as Worker } from "./worker/index.js";
+
 export function create(options) {
     
         return new Index(options);
