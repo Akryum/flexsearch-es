@@ -1,6 +1,6 @@
 {
   "name": "@akryum/flexsearch-es",
-  "version": "0.7.31.1",
+  "version": "0.7.32",
   "description": "Next-Generation full text search library with zero dependencies.",
   "homepage": "https://github.com/Akryum/flexsearch-es/",
   "author": "Thomas Wilkerling",
