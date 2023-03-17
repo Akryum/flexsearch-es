@@ -16,10 +16,9 @@ import {
 
 } from "./config.js";
 
-import { IndexInterface } from "./type.js";
 import { encode as default_encoder } from "./lang/latin/default.js";
 import { create_object, create_object_array, concat, sort_by_length_down, is_array, is_string, is_object, parse_option } from "./common.js";
-import { pipeline, init_stemmer_or_matcher, init_filter } from "./lang.js";
+import { init_stemmer_or_matcher, init_filter } from "./lang.js";
 import { global_lang, global_charset } from "./global.js";
 import apply_async from "./async.js";
 import { intersect } from "./intersect.js";
